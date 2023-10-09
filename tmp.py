@@ -2,8 +2,6 @@ from manim import *
 
 class bayes(Scene):
     def construct(self):
-        
-        """
         # Adding Text like title and virus detection
         medical_test = Title("Medical Test", match_underline_width_to_text= True).to_edge(UL)
         virus_detected = Tex(f"Virus\n\nDetected", font_size= 40)
@@ -227,8 +225,6 @@ class bayes(Scene):
         self.play(ReplacementTransform(numbers, result))
         self.wait(1)
         self.play(Write(result_bayes))
-
-        """
 
         question = Tex("The number of balls in three urns is as follows:")
 
